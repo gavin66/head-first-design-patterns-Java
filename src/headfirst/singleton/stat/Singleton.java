@@ -6,7 +6,7 @@ package headfirst.singleton.stat;
 public class Singleton {
     private static Singleton uniqueInstance = new Singleton();
 
-    public Singleton() {
+    private Singleton() {
     }
 
     public static Singleton getInstance(){
