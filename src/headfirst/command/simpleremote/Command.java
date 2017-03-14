@@ -1,4 +1,4 @@
-package headfirst.simpleremote;
+package headfirst.command.simpleremote;
 
 /**
  * Created by Gavin on 2017/3/14.

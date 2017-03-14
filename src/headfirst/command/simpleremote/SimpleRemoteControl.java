@@ -1,4 +1,4 @@
-package headfirst.simpleremote;
+package headfirst.command.simpleremote;
 
 /**
  * 调用者
