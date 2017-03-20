@@ -1,4 +1,4 @@
-package headfirst.iterator.dinermerger;
+package headfirst.iterator.dinermergercafe;
 
 public class MenuItem {
 	String name;
@@ -31,8 +31,5 @@ public class MenuItem {
   
 	public boolean isVegetarian() {
 		return vegetarian;
-	}
-	public String toString() {
-		return (name + ", $" + price + "\n   " + description);
 	}
 }

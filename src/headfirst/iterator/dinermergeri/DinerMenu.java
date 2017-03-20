@@ -1,4 +1,6 @@
-package headfirst.iterator.dinermerger;
+package headfirst.iterator.dinermergeri;
+
+import java.util.Iterator;
 
 public class DinerMenu implements Menu {
 	static final int MAX_ITEMS = 6;
@@ -40,10 +42,8 @@ public class DinerMenu implements Menu {
 		return menuItems;
 	}
   
-	public Iterator createIterator() {
+	public Iterator<MenuItem> createIterator() {
 		return new DinerMenuIterator(menuItems);
-		// To test Alternating menu items, comment out above line,
-		// and uncomment the line below.
 		//return new AlternatingDinerMenuIterator(menuItems);
 	}
  

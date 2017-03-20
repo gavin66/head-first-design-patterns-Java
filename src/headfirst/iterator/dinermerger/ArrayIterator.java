@@ -1,10 +1,10 @@
 package headfirst.iterator.dinermerger;
 
-public class DinerMenuIterator implements Iterator {
+public class ArrayIterator implements Iterator {
 	MenuItem[] items;
 	int position = 0;
  
-	public DinerMenuIterator(MenuItem[] items) {
+	public ArrayIterator(MenuItem[] items) {
 		this.items = items;
 	}
  
