@@ -40,7 +40,7 @@ Head First设计模式 `Java` 版源码
 
 - 创建型
 
-  - [简单工厂模式（Simple Factory）](#simple-factory)
+  - 简单工厂模式（Simple Factory）
   - [工厂方法模式（Factory Method）](#factory-method)
   - [抽象工厂模式（Abstract Factory）](#abstract-factory)
   - [建造者模式（Builder）](#builder)
